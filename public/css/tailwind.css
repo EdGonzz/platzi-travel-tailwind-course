@@ -641,6 +641,18 @@ select {
   outline: 1px auto -webkit-focus-ring-color;
 }
 
+@font-face {
+  font-family: "Montserrat";
+
+  font-style: normal;
+
+  font-weight: 100 900;
+
+  font-display: swap;
+
+  src: url(/public/assets/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -749,47 +761,24 @@ select {
   --tw-contain-style:  ;
 }
 
-.h-3 {
-  height: 0.75rem;
+.font-Montserrat {
+  font-family: Montserrat, sans-serif;
 }
 
-.h-36 {
-  height: 9rem;
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
 }
 
-.w-full {
-  width: 100%;
+.font-thin {
+  font-weight: 100;
 }
 
-.bg-primary {
-  --tw-bg-opacity: 1;
-  background-color: rgb(204 45 74 / var(--tw-bg-opacity));
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
+.italic {
+  font-style: italic;
 }
 
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(204 45 74 / var(--tw-text-opacity));
-}
-
-.text-secondary {
-  --tw-text-opacity: 1;
-  color: rgb(143 162 6 / var(--tw-text-opacity));
-}
-
-.text-tertiary {
-  --tw-text-opacity: 1;
-  color: rgb(97 174 201 / var(--tw-text-opacity));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
