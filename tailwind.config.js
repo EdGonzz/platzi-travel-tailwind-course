@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // purge: [], tailwind ya no usa PurgeCSS
   // darkMode: false, // or 'media' or 'class'
   content: ["./public/index.html", "./src/css/tailwind.css"],
   theme: {
@@ -11,7 +10,7 @@ module.exports = {
         tertiary: '#61AEC9',
       },
       fontFamily: {
-        'Montserrat': ['Montserrat', 'sans-serif'],
+        Montserrat: ['Montserrat', 'sans-serif'],
       }
     },
   },
