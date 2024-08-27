@@ -12,3 +12,11 @@
     src: url(/public/assets/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
   }
 }
+
+.card {
+  @apply min-w-44 max-w-72 min-h-48 max-h-64 rounded-lg bg-secondary flex flex-col gap-3 shadow-lg;
+}
+
+.card:nth-child(2n) {
+  @apply bg-white;
+}

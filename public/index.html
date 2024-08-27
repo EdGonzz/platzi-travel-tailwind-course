@@ -9,7 +9,7 @@
 </head>
 
 <body class="font-Montserrat">
-  <header class="w-full h-[400px]">
+  <header id="header" class="w-full h-[400px]">
     <nav class="w-full h-full relative">
         <div class="w-full h-full flex flex-col justify-center items-center gap-y-40 absolute">
           <div class="w-64 relative">
@@ -23,6 +23,56 @@
       <img class="w-full h-full object-cover" src="./assets/img/sanFrancisco.webp" alt="">
     </nav>
   </header>
+
+  <main id="main" class="w-full my-4">
+    <section id="recommendations" class="w-full h-auto pl-4">
+      <h2 class="text-primary font-semibold text-xl">Our recommendations</h2>
+
+      <div class="scroll-pl-2 overflow-x-auto overscroll-contain scroll-smooth snap-x snap-mandatory w-full h-auto mt-6 pb-6 flex flex-row gap-4">
+
+        <article class="snap-center card">
+          <img class="object-cover w-full h-2/4 rounded-t-lg" src="./assets/img/norway.webp" alt="A beautiful landscape from Norway">
+          <header class="ml-2 flex flex-col gap-1">
+            <h3 class="font-bold text-xl text-white">Norway</h3>
+            <p class="text-sm font-medium text-pretty text-white">Beautiful landscapes</p>
+          </header>
+        </article>
+
+        <article class="snap-start card">
+          <img class="object-cover w-full h-2/4 rounded-t-lg" src="./assets/img/new_york.webp" alt="A beautiful landscape from Norway">
+          <header class="ml-2 flex flex-col gap-1">
+            <h3 class="font-bold text-xl text-tertiary">New York</h3>
+            <p class="text-sm font-medium text-pretty text-tertiary">Concrete jungle</p>
+          </header>
+        </article>
+
+        <article class="snap-start card">
+          <img class="object-cover w-full h-2/4 rounded-t-lg" src="./assets/img/yosemite.webp" alt="A beautiful landscape from Norway">
+          <header class="ml-2 flex flex-col gap-1">
+            <h3 class="font-bold text-xl text-white">Yosemite</h3>
+            <p class="text-sm font-medium text-pretty text-white">A break from the world</p>
+          </header>
+        </article>
+
+        <article class="snap-start card">
+          <img class="object-cover w-full h-2/4 rounded-t-lg" src="./assets/img/seattle.webp" alt="A beautiful landscape from Norway">
+          <header class="ml-2 flex flex-col gap-1">
+            <h3 class="font-bold text-xl text-tertiary">Seattle</h3>
+            <p class="text-sm font-medium text-pretty text-tertiary">Big and vibrant city</p>
+          </header>
+        </article>
+
+        <article class="snap-start card mr-44">
+          <img class="object-cover w-full h-2/4 rounded-t-lg" src="./assets/img/switzerland.webp" alt="A beautiful landscape from Norway">
+          <header class="ml-2 flex flex-col gap-1">
+            <h3 class="font-bold text-xl text-white">Switzerland</h3>
+            <p class="text-sm font-medium text-pretty text-white">Stunning mountain landscapes</p>
+          </header>
+        </article>
+
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
