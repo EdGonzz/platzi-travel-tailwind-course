@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -879,8 +879,8 @@ select {
   scroll-snap-align: center;
 }
 
-.scroll-pl-2 {
-  scroll-padding-left: 0.5rem;
+.scroll-pl-1 {
+  scroll-padding-left: 0.25rem;
 }
 
 .flex-row {
