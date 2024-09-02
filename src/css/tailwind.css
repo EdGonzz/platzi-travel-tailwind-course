@@ -14,9 +14,22 @@
 }
 
 .card {
-  @apply min-w-44 max-w-72 min-h-48 max-h-64 rounded-lg bg-secondary flex flex-col gap-3 shadow-lg;
+  @apply min-w-44 max-w-72 min-h-48 max-h-64 rounded-lg bg-secondary flex flex-col shadow-xl transition-all hover:scale-95 hover:shadow-sm;
+}
+
+.flex-card {
+  @apply h-full flex flex-col gap-3;
 }
 
 .card:nth-child(2n) {
   @apply bg-white;
 }
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }  
