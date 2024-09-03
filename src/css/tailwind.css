@@ -14,7 +14,7 @@
 }
 
 .card {
-  @apply min-w-44 max-w-72 min-h-48 max-h-64 rounded-lg bg-secondary flex flex-col shadow-xl transition-all hover:scale-95 hover:shadow-sm;
+  @apply min-w-44 max-w-72 min-h-48 max-h-64 rounded-lg bg-secondary flex flex-col shadow-xl transition-all hover:scale-95 hover:shadow-lg;
 }
 
 .flex-card {
@@ -23,6 +23,14 @@
 
 .card:nth-child(2n) {
   @apply bg-white;
+}
+
+.titleCard {
+  @apply text-2xl font-bold text-white;
+}
+
+.paragraphCard {
+  @apply font-medium text-lg text-white;
 }
 
 /* clears the ‘X’ from Internet Explorer */
