@@ -769,18 +769,6 @@ select {
   position: relative;
 }
 
-.top-10 {
-  top: 2.5rem;
-}
-
-.top-1 {
-  top: 0.25rem;
-}
-
-.top-20 {
-  top: 5rem;
-}
-
 .top-16 {
   top: 4rem;
 }
@@ -790,12 +778,33 @@ select {
   margin-bottom: 1rem;
 }
 
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mr-44 {
   margin-right: 11rem;
 }
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-14 {
+  margin-bottom: 3.5rem;
 }
 
 .box-border {
@@ -832,6 +841,14 @@ select {
 
 .h-full {
   height: 100%;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-1\/2 {
+  height: 50%;
 }
 
 .max-h-64 {
@@ -918,6 +935,10 @@ select {
   gap: 2rem;
 }
 
+.gap-6 {
+  gap: 1.5rem;
+}
+
 .gap-y-40 {
   row-gap: 10rem;
 }
@@ -926,12 +947,20 @@ select {
   overflow-x: auto;
 }
 
-.overscroll-contain {
-  overscroll-behavior: contain;
+.overscroll-x-contain {
+  overscroll-behavior-x: contain;
 }
 
 .scroll-smooth {
   scroll-behavior: smooth;
+}
+
+.text-wrap {
+  text-wrap: wrap;
+}
+
+.text-balance {
+  text-wrap: balance;
 }
 
 .text-pretty {
@@ -1026,6 +1055,10 @@ select {
 
 .pl-6 {
   padding-left: 1.5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .font-Montserrat {
@@ -1160,6 +1193,14 @@ select {
   font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.titleSections {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(204 45 74 / var(--tw-text-opacity));
 }
 
 /* clears the ‘X’ from Internet Explorer */
