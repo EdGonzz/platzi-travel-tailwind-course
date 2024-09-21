@@ -37,6 +37,11 @@
   @apply text-primary font-semibold text-2xl
 }
 
+.nav-navigation {
+  @apply h-full py-4 px-3 hover:bg-primary hover:text-white transition-all;
+}
+
+
 /* clears the ‘X’ from Internet Explorer */
 input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
 input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
