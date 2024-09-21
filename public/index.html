@@ -9,7 +9,7 @@
 </head>
 
 <body class="font-Montserrat scroll-smooth">
-  <header id="header" class="w-full h-[400px] md:h-[600px]">
+  <header id="header" class="w-full h-[400px] md:h-[500px]">
     <nav class="hidden md:flex w-full h-14 bg-white shadow-md flex-row justify-around items-center text-center fixed top-0 z-50">
       <div>
         <span class="text-primary text-base lg:text-lg font-bold">Platzi Travel</span>
@@ -41,7 +41,7 @@
     </nav>
 
     <div class="w-full h-full relative">
-      <div class="w-full h-full flex flex-col justify-center items-center gap-y-40 absolute">
+      <div class="w-full h-full flex flex-col justify-center items-center gap-y-40 absolute md:items-start md:justify-start md:pt-32 md:gap-y-8 md:pl-16">
         <div
           class="w-48 border-2 border-transparent rounded-full bg-white relative flex flex-row place-items-center py-2 px-3 shadow-xl cursor-text transition-[width] duration-700 hover:shadow-none hover:border-2 hover:border-primary hover:w-9/12 focus-within:w-9/12 focus-within:shadow-none focus-within:border-2 focus-within:border-primary md:hidden">
           <div class="py-2">
@@ -54,6 +54,7 @@
           <input class="border-0 focus:ring-0 outline-none text-base box-border w-full px-1" type="search" name="" id=""
             placeholder="San Francisco">
         </div>
+        <h1 class="hidden md:block text-black text-4xl font-bold text-pretty w-96">Find More Locations like this</h1>
         <button
           class="w-36 h-12 text-primary rounded-full font-semibold bg-white shadow-lg transition-all hover:bg-primary hover:text-white hover:scale-110">
           Explore More
@@ -247,8 +248,7 @@
     </div>
   </footer>
 
-  <div class="md:hidden" id="tabBar"
-    class="w-full h-16 bg-white shadow-md flex flex-row justify-evenly items-center gap-x-2 fixed bottom-0">
+  <div class="md:hidden w-full h-16 bg-white shadow-md flex flex-row justify-evenly items-center gap-x-2 fixed bottom-0" id="tabBar">
     <a class="" href="#header">
       <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
         <path class="text-gray-300" fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
