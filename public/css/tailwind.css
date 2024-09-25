@@ -1461,6 +1461,34 @@ input[type="search"]::-webkit-search-results-decoration {
     height: 500px;
   }
 
+  .md\:h-\[400px\] {
+    height: 400px;
+  }
+
+  .md\:h-\[460px\] {
+    height: 460px;
+  }
+
+  .md\:h-\[480px\] {
+    height: 480px;
+  }
+
+  .md\:h-14 {
+    height: 3.5rem;
+  }
+
+  .md\:w-3 {
+    width: 0.75rem;
+  }
+
+  .md\:w-4 {
+    width: 1rem;
+  }
+
+  .md\:w-40 {
+    width: 10rem;
+  }
+
   .md\:items-start {
     align-items: flex-start;
   }
@@ -1479,6 +1507,11 @@ input[type="search"]::-webkit-search-results-decoration {
 
   .md\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .md\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
