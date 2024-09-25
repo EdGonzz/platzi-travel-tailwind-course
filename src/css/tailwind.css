@@ -14,15 +14,27 @@
 }
 
 .card {
-  @apply min-w-44 max-w-72 min-h-48 max-h-64 rounded-lg bg-secondary flex flex-col shadow-xl transition-all hover:scale-95 hover:shadow-lg;
+  @apply min-w-44 min-h-48 max-h-64 rounded-lg bg-secondary flex flex-col shadow-lg transition-all hover:scale-95 hover:shadow-md;
 }
 
 .flex-card {
   @apply h-full flex flex-col gap-3;
 }
 
+.recommendationTitle {
+  @apply font-bold text-xl text-white;
+}
+
+.recommendationText {
+  @apply text-sm font-medium text-pretty text-white;
+}
+
 .card:nth-child(2n) {
   @apply bg-white;
+}
+
+.card:nth-child(2n) .recommendationTitle, .card:nth-child(2n) .recommendationText {
+  @apply text-tertiary;
 }
 
 .titleCard {
@@ -34,7 +46,7 @@
 }
 
 .titleSections {
-  @apply text-primary font-semibold text-2xl
+  @apply text-primary font-semibold text-2xl md:text-3xl
 }
 
 .nav-navigation {
