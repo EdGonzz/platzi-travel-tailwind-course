@@ -53,6 +53,14 @@
   @apply text-primary font-semibold text-2xl md:text-3xl
 }
 
+.faqsTitle {
+  @apply text-primary font-semibold text-base pb-2 text-balance md:text-xl;
+}
+
+.faqsText {
+  @apply text-pretty text-sm md:text-base;
+}
+
 .nav-navigation {
   @apply h-full py-4 px-3 hover:bg-primary hover:text-white transition-all;
 }

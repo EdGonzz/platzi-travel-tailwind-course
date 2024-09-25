@@ -1376,6 +1376,36 @@ select {
   }
 }
 
+.faqsTitle {
+  text-wrap: balance;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: rgb(204 45 74 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .faqsTitle {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+.faqsText {
+  text-wrap: pretty;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .faqsText {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 .nav-navigation {
   height: 100%;
   padding-top: 1rem;
