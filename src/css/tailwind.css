@@ -46,7 +46,7 @@
 }
 
 .paragraphCard {
-  @apply font-semibold text-lg text-pretty text-white w-72 md:text-xl;
+  @apply font-semibold text-lg text-pretty text-white md:w-72 md:text-xl;
 }
 
 .titleSections {
