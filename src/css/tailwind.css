@@ -37,12 +37,16 @@
   @apply text-tertiary;
 }
 
+.headerPosition {
+  @apply absolute top-16 pl-6 flex flex-col gap-1 md:top-12 md:pl-14;
+}
+
 .titleCard {
-  @apply text-2xl font-bold text-white;
+  @apply text-2xl font-bold text-white md:text-3xl;
 }
 
 .paragraphCard {
-  @apply font-medium text-lg text-white;
+  @apply font-semibold text-lg text-pretty text-white w-72 md:text-xl;
 }
 
 .titleSections {
