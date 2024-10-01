@@ -14,7 +14,7 @@
 }
 
 .card {
-  @apply min-w-44 min-h-56 md:min-w-48 rounded-lg bg-secondary flex flex-col shadow-lg transition-all hover:scale-95 hover:shadow-md md:h-14;
+  @apply min-w-44 min-h-56 rounded-lg bg-secondary flex flex-col shadow-lg transition-all hover:scale-95 hover:shadow-md  md:min-w-48 lg:min-h-72 lg:min-w-60; 
 }
 
 .flex-card {
