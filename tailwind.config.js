@@ -8,10 +8,18 @@ module.exports = {
         primary: '#CC2D4A',
         secondary: '#8FA206',
         tertiary: '#61AEC9',
+        custom: {
+          default: '#f1f1f1',
+          primary: '#CC2D4A'
+        }
       },
       fontFamily: {
         Montserrat: ['Montserrat', 'sans-serif'],
-      }
+      },
+      objectPosition: {
+        'Chicago': '0px -400px',
+        'Miami': '0px -10px',
+      },
   },
   },
 
@@ -27,6 +35,7 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
+    require('tailwind-scrollbar'),
   ],
 }
 
