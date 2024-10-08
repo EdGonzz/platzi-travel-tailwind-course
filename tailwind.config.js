@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  // darkMode: false, // or 'media' or 'class'
+  darkMode: 'class',
   content: ["./public/index.html", "./src/css/tailwind.css"],
   theme: {
     extend: {
@@ -13,7 +13,7 @@ module.exports = {
           primary: '#CC2D4A'
         }
       },
-      fontFamily: {
+      fontFamily: { 
         Montserrat: ['Montserrat', 'sans-serif'],
       },
       objectPosition: {
