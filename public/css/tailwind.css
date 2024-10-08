@@ -806,11 +806,6 @@ select {
   grid-row: span 1 / span 1;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -1420,6 +1415,11 @@ select {
   color: rgb(204 45 74 / var(--tw-text-opacity));
 }
 
+.titleSections:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .titleSections {
     font-size: 1.875rem;
@@ -1608,29 +1608,14 @@ input[type="search"]::-webkit-search-results-decoration {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.dark\:bg-gray-900:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
 .dark\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.dark\:placeholder\:text-white:is(.dark *)::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.dark\:placeholder\:text-white:is(.dark *)::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.dark\:placeholder\:text-gray-200:is(.dark *)::-moz-placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
-}
-
-.dark\:placeholder\:text-gray-200:is(.dark *)::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .dark\:placeholder\:text-gray-400:is(.dark *)::-moz-placeholder {
@@ -1668,11 +1653,6 @@ input[type="search"]::-webkit-search-results-decoration {
     margin-bottom: 1rem;
   }
 
-  .md\:my-8 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1699,10 +1679,6 @@ input[type="search"]::-webkit-search-results-decoration {
 
   .md\:hidden {
     display: none;
-  }
-
-  .md\:h-14 {
-    height: 3.5rem;
   }
 
   .md\:h-8 {
@@ -1740,6 +1716,11 @@ input[type="search"]::-webkit-search-results-decoration {
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .md\:pb-8 {

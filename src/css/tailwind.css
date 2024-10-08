@@ -50,7 +50,7 @@
 }
 
 .titleSections {
-  @apply text-primary font-semibold text-2xl md:text-3xl
+  @apply text-primary font-semibold text-2xl md:text-3xl dark:text-white
 }
 
 .faqsTitle {
