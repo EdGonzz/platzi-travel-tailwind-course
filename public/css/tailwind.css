@@ -1220,6 +1220,11 @@ select {
   color: rgb(204 45 74 / var(--tw-text-opacity));
 }
 
+.text-tertiary {
+  --tw-text-opacity: 1;
+  color: rgb(97 174 201 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1297,6 +1302,11 @@ select {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.card:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px) {
   .card {
     min-width: 12rem;
@@ -1334,6 +1344,11 @@ select {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.recommendationText:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .recommendationText {
     font-size: 1rem;
@@ -1346,9 +1361,29 @@ select {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.card:nth-child(2n) .recommendationTitle, .card:nth-child(2n) .recommendationText {
+.card:nth-child(2n):is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.card:nth-child(2n) .recommendationTitle {
   --tw-text-opacity: 1;
   color: rgb(97 174 201 / var(--tw-text-opacity));
+}
+
+.card:nth-child(2n) .recommendationTitle:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.card:nth-child(2n) .recommendationText {
+  --tw-text-opacity: 1;
+  color: rgb(97 174 201 / var(--tw-text-opacity));
+}
+
+.card:nth-child(2n) .recommendationText:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .headerPosition {
@@ -1601,6 +1636,11 @@ input[type="search"]::-webkit-search-results-decoration {
 .dark\:border-white:is(.dark *) {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.dark\:bg-gray-700:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
 .dark\:bg-gray-800:is(.dark *) {

@@ -14,7 +14,7 @@
 }
 
 .card {
-  @apply min-w-44 min-h-56 rounded-lg bg-secondary flex flex-col shadow-lg transition-all hover:scale-95 hover:shadow-md  md:min-w-48 lg:min-h-72 lg:min-w-60; 
+  @apply min-w-44 min-h-56 rounded-lg bg-secondary dark:bg-gray-700 flex flex-col shadow-lg transition-all hover:scale-95 hover:shadow-md  md:min-w-48 lg:min-h-72 lg:min-w-60; 
 }
 
 .flex-card {
@@ -26,15 +26,19 @@
 }
 
 .recommendationText {
-  @apply text-sm font-semibold text-pretty text-white md:text-base;
+  @apply text-sm font-semibold text-pretty text-white md:text-base dark:text-gray-300;
 }
 
 .card:nth-child(2n) {
-  @apply bg-white;
+  @apply bg-white dark:bg-gray-800;
 }
 
-.card:nth-child(2n) .recommendationTitle, .card:nth-child(2n) .recommendationText {
-  @apply text-tertiary;
+.card:nth-child(2n) .recommendationTitle {
+  @apply text-tertiary dark:text-white;
+}
+
+.card:nth-child(2n) .recommendationText {
+  @apply text-tertiary dark:text-gray-300;
 }
 
 .headerPosition {
