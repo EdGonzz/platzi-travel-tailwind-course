@@ -58,11 +58,11 @@
 }
 
 .faqsTitle {
-  @apply text-primary font-semibold text-base pb-2 text-balance md:text-xl;
+  @apply text-primary font-semibold text-base pb-2 text-balance md:text-xl dark:text-white;
 }
 
 .faqsText {
-  @apply text-pretty text-sm md:text-base;
+  @apply text-pretty text-sm md:text-base dark:text-gray-300;
 }
 
 .nav-navigation {

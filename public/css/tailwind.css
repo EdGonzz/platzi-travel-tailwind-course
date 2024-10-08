@@ -940,6 +940,10 @@ select {
   cursor: text;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .snap-x {
   scroll-snap-type: x var(--tw-scroll-snap-strictness);
 }
@@ -1472,6 +1476,11 @@ select {
   color: rgb(204 45 74 / var(--tw-text-opacity));
 }
 
+.faqsTitle:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px) {
   .faqsTitle {
     font-size: 1.25rem;
@@ -1483,6 +1492,11 @@ select {
   text-wrap: pretty;
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.faqsText:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -1791,6 +1805,11 @@ input[type="search"]::-webkit-search-results-decoration {
 
   .md\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
