@@ -13,6 +13,9 @@
   }
 }
 
+html {
+  @apply [scrollbar-width:thin];
+}
 .card {
   @apply min-w-44 min-h-56 rounded-lg bg-secondary dark:bg-gray-700 flex flex-col shadow-md transition-all hover:scale-[.98] hover:shadow-sm dark:shadow-gray-600  md:min-w-48 lg:min-h-72 lg:min-w-60; 
 }
