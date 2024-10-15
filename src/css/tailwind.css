@@ -24,11 +24,11 @@ html {
 }
 
 .recommendationTitle {
-  @apply font-bold text-xl text-white;
+  @apply font-bold text-xl text-black dark:text-white;
 }
 
 .recommendationText {
-  @apply text-sm font-semibold text-pretty text-white md:text-base dark:text-gray-300;
+  @apply text-sm font-semibold text-pretty text-black md:text-base dark:text-gray-300;
 }
 
 .card:nth-child(2n) {
