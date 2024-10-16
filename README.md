@@ -17,8 +17,8 @@ Este seria el diseño de Figma:
 
 ## Mejoras
 <div align="center">
-  <a href="https://googlechrome.github.io/lighthouse/viewer/?gist=99622f18035b9cff87565e05fee8f214" target="_blank">
-    <img width="500" target="_blank" src="./public/assets/img/lighthouse.webp" alt="lighthouse" name="lighthouse">
+  <a target="_blank" href="https://googlechrome.github.io/lighthouse/viewer/?gist=99622f18035b9cff87565e05fee8f214" target="_blank">
+    <img width="500" src="./public/assets/img/lighthouse.webp" alt="lighthouse" name="lighthouse">
   </a>
 </div>
 
